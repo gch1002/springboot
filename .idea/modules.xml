@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/crud_restful/crud_restful.iml" filepath="$PROJECT_DIR$/crud_restful/crud_restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reflection/reflection.iml" filepath="$PROJECT_DIR$/reflection/reflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_security/spring_security.iml" filepath="$PROJECT_DIR$/spring_security/spring_security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springboot.iml" filepath="$PROJECT_DIR$/.idea/springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_mybatis_fileupload/springboot_mybatis_fileupload.iml" filepath="$PROJECT_DIR$/springboot_mybatis_fileupload/springboot_mybatis_fileupload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_thymeleaf_test/springboot_thymeleaf_test.iml" filepath="$PROJECT_DIR$/springboot_thymeleaf_test/springboot_thymeleaf_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice/webservice.iml" filepath="$PROJECT_DIR$/webservice/webservice.iml" />
+    </modules>
+  </component>
+</project>
