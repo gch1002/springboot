@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--转义-->
+<div th:text="${hello}"></div>
+<!--不转义-->
+<div th:utext="${hello}"></div>
+<hr/>
+<!--th:each写在哪个标签上，每次遍历都会生成当前标签   th:text="" 里面写的内容就是放在尖括号中间的内容-->
+<h4 th:text="${user}" th:each="user:${users}"></h4>
+<hr/>
+<h4>
+    <!--   [[]] 相当于th:text  [()]  相当于th:utest   -->
+    <span th:each="user:${users}">[[${user}]]</span>
+</h4>
+
+
+</body>
+</html>
